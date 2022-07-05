@@ -1,0 +1,130 @@
+/* to Hide Arrows/Spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.bid {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-left: 30px;
+}
+.glow {
+  background-color: transparent;
+  border-radius: 1%;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: #ffffff;
+  background-color: #d4b499;
+  display: inline-block;
+  font-size: 35px !important;
+  text-size-adjust: 25px;
+  width: 50px;
+  justify-self: stretch;
+}
+.bwidth {
+  width: 150px !important;
+}
+
+.input-container {
+  display: flex;
+}
+h5 {
+  font-weight: bold;
+}
+.glow:hover {
+  box-shadow: 0 0 10px 0 #050404 inset, 0 0 10px 1px #050404;
+  border: 2px solid #050404;
+}
+
+.live-body {
+  font-family: Arial, Helvetica, sans-serif, Bold;
+  justify-content: stretch;
+  justify-items: stretch;
+  text-align: justify;
+  text-justify: auto;
+}
+
+/* Style the header */
+.live-body .header {
+  grid-area: header;
+  /* background-color: #889eaf; */
+  padding-top: 60px;
+  text-align: center;
+  font-style: bold;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "left left middle middle middle right"
+    "footer footer footer footer footer footer";
+}
+
+.left,
+.middle,
+.right {
+  padding: 20px;
+  width: fit-content;
+  justify-content: stretch;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  width: fit-content;
+  max-height: 100%;
+  max-width: 800px;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  max-height: 100%;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  width: fit-content;
+  max-height: 100%;
+}
+
+/* Style the footer */
+.live-body .footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  background-color: #889eaf;
+  padding: 50px;
+  text-align: center;
+  justify-content: center !important;
+  position: sticky;
+}
+
+@media screen and (max-width: 200px) {
+  .toast-demo button {
+    width: 60%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-areas:
+      "header header header header header header"
+      "left left left left left left"
+      "middle middle middle middle middle middle"
+      "right right right right right right"
+      "footer footer footer footer footer footer";
+  }
+}
+.toast-demo button {
+  min-width: 30rem;
+  margin-right: 0rem;
+}

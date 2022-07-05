@@ -1,0 +1,56 @@
+.p-menuitem {
+  background-color: transparent !important;
+}
+.p-panelmenu-content {
+  background-color: transparent !important;
+  border: none !important;
+}
+.p-panelmenu-header > a {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.p-panelmenu-header > a:hover {
+  background-color: transparent !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+.p-submenu-list {
+  background-color: transparent !important;
+}
+.p-panelmenu-content {
+  background-color: transparent !important;
+}
+.p-panelmenu {
+  background-color: transparent !important;
+}
+.p-menuitem-text {
+  /*outside text*/
+  color: #ffffff !important;
+}
+.p-menuitem-icon {
+  /*outside icon*/
+  color: #ffffff !important;
+}
+.p-panelmenu-icon {
+  color: #ffffff !important;
+}
+.p-panelmenu
+  .p-panelmenu-content
+  .p-menuitem
+  .p-menuitem-link
+  .p-menuitem-icon {
+  margin-right: 0.5rem;
+}
+
+.p-panelmenu .p-panelmenu-header > a:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none !important;
+}
+.p-panelmenu
+  .p-panelmenu-content
+  .p-menuitem
+  .p-menuitem-link:not(.p-disabled):hover {
+  background: none !important;
+}

@@ -1,0 +1,15 @@
+.word {
+  width: 100%;
+  background-color: #574b8a;
+  text-align: center;
+  padding: 10px;
+}
+.sec {
+  width: 50%;
+  margin: 60px auto;
+  background-color: #574b8a;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 50px;
+}

@@ -1,0 +1,84 @@
+#clockdiv div {
+  margin: 10px;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #506d84;
+  display: inline-block;
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  top: -100px;
+  right: 10px;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(#506d84, #f3d5c0);
+  z-index: -10;
+}
+#clockdiv div > span {
+  padding: 10px;
+  border-radius: 3px;
+  background: #506d84;
+  display: inline-block;
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  top: -100px;
+  right: 10px;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(#7812b3, #09021d);
+  z-index: -10;
+}
+#clockdiv div > span {
+  padding: 15px;
+  background: #08091a;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #0575e6 0%,
+    #021b79 51%,
+    #0575e6 100%
+  );
+}
+.close_div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 300;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  padding: 50vh 0;
+}
+ .buttonpayment {
+  border-radius: 10px;
+  background-color: #ffa949;
+  border: none;
+  color: #ffffff;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 180px;
+  font-weight: 800;
+  margin-right: 10px;
+}

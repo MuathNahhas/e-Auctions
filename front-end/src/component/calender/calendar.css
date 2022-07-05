@@ -1,0 +1,13 @@
+.rbc-date-cell {
+  font-size: 2.5vh !important;
+}
+.rbc-toolbar-label {
+  font-size: 5vh !important;
+}
+.rbc-header {
+  font-size: 2vh !important;
+}
+.rbc-btn-group > div > div > div {
+  font-size: 2rem !important;
+  color: rgb(118, 118, 118) !important;
+}

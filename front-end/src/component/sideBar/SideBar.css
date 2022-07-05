@@ -1,0 +1,18 @@
+.card1 {
+  border: none;
+  position: absolute;
+  top: 0.7rem;
+  left: 1rem;
+  z-index: 200;
+}
+.card1 button {
+  position: fixed;
+  top: 2;
+  background-color: #FFA949 !important;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    overflow: hidden;
+  }
+}
